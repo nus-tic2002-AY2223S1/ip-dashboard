@@ -1,24 +1,24 @@
-Oct 01, 2022 5:25:33 AM reposense.parser.CsvParser validateHeader
+Oct 01, 2022 1:34:35 PM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
-Oct 01, 2022 5:25:33 AM reposense.parser.CsvParser validateHeader
+Oct 01, 2022 1:34:35 PM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/siyingpng/duke.git...
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:35 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Alaskaredfish/duke.git...
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:35 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/siyingpng/duke.git...
+Oct 01, 2022 1:34:35 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Traezar/duke.git...
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/siyingpng/duke.git to complete...
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:35 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/msjacelyn23/duke.git...
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Traezar/duke.git to complete...
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:35 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/msjacelyn23/duke.git to complete...
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:35 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Traezar/duke.git to complete...
+Oct 01, 2022 1:34:35 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/siyingpng/duke.git to complete...
+Oct 01, 2022 1:34:35 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Alaskaredfish/duke.git to complete...
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:36 PM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "msjacelyn23/duke[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/msjacelyn23/duke.git' 'repos/msjacelyn23_duke/duke_bare' on path . :
 Cloning into bare repository 'repos/msjacelyn23_duke/duke_bare'...
@@ -34,77 +34,83 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:36 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/rinachua/duke.git...
-Oct 01, 2022 5:25:34 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:36 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/rinachua/duke.git to complete...
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/Traezar/duke.git completed!
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/Ayesh02/duke.git...
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/32] Analyzing https://github.com/Traezar/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Ayesh02/duke.git to complete...
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/siyingpng/duke.git completed!
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/32] Analyzing https://github.com/siyingpng/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/bboy-zero/duke.git...
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/Traezar/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/bboy-zero/duke.git to complete...
-Oct 01, 2022 5:25:35 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/Traezar/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/Alaskaredfish/duke.git completed!
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/Ayesh02/duke.git...
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/32] Analyzing https://github.com/siyingpng/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Ayesh02/duke.git to complete...
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/siyingpng/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:35 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/siyingpng/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/yuyanen/duke.git...
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/yuyanen/duke.git to complete...
-Oct 01, 2022 5:25:35 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/siyingpng/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/Traezar/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/siyingpng/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/Traezar/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/siyingpng/duke.git (master) completed!
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/Traezar/duke.git (master) completed!
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [3/32] Analyzing https://github.com/Alaskaredfish/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/rinachua/duke.git completed!
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/pineapplehui/duke.git...
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [4/32] Analyzing https://github.com/rinachua/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/pineapplehui/duke.git to complete...
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/Alaskaredfish/duke.git completed!
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/32] Analyzing https://github.com/Alaskaredfish/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/bboy-zero/duke.git...
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/bboy-zero/duke.git to complete...
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/Traezar/duke.git completed!
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Alaskaredfish/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:35 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Alaskaredfish/duke.git (master)...
-Oct 01, 2022 5:25:35 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/rinachua/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:35 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/rinachua/duke.git (master)...
-Oct 01, 2022 5:25:36 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/yuyanen/duke.git...
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/yuyanen/duke.git to complete...
+Oct 01, 2022 1:34:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/siyingpng/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/siyingpng/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/siyingpng/duke.git (master) completed!
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [3/32] Analyzing https://github.com/Traezar/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/Traezar/duke.git (master) does not contain a standalone config file.
+Oct 01, 2022 1:34:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/Traezar/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Alaskaredfish/duke.git (master)...
-Oct 01, 2022 5:25:36 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Alaskaredfish/duke.git (master)...
-Oct 01, 2022 5:25:36 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Alaskaredfish/duke.git (master) completed!
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/rinachua/duke.git completed!
+Oct 01, 2022 1:34:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/Traezar/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/pineapplehui/duke.git...
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [4/32] Analyzing https://github.com/rinachua/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/pineapplehui/duke.git to complete...
+Oct 01, 2022 1:34:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/Traezar/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/Traezar/duke.git (master) completed!
+Oct 01, 2022 1:34:37 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/rinachua/duke.git (master) does not contain a standalone config file.
+Oct 01, 2022 1:34:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/rinachua/duke.git (master)...
+Oct 01, 2022 1:34:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/rinachua/duke.git (master)...
+Oct 01, 2022 1:34:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/rinachua/duke.git (master)...
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/rinachua/duke.git (master) completed!
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "pineapplehui/duke[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/pineapplehui/duke.git' 'repos/pineapplehui_duke/duke_bare' on path . :
 Cloning into bare repository 'repos/pineapplehui_duke/duke_bare'...
@@ -120,469 +126,463 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Anyerxkp/duke.git...
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Anyerxkp/duke.git to complete...
-Oct 01, 2022 5:25:36 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/rinachua/duke.git (master)...
-Oct 01, 2022 5:25:36 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/rinachua/duke.git (master)...
-Oct 01, 2022 5:25:36 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/rinachua/duke.git (master) completed!
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/bboy-zero/duke.git completed!
-Oct 01, 2022 5:25:36 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [5/32] Analyzing https://github.com/bboy-zero/duke.git (master)...
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/limexpepper/duke.git...
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Ayesh02/duke.git completed!
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/limexpepper/duke.git to complete...
-Oct 01, 2022 5:25:36 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [6/32] Analyzing https://github.com/Ayesh02/duke.git (master)...
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/aaronangxz/duke.git...
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/aaronangxz/duke.git to complete...
-Oct 01, 2022 5:25:36 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/Ayesh02/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:36 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/Ayesh02/duke.git (master)...
-Oct 01, 2022 5:25:36 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/bboy-zero/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:36 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/bboy-zero/duke.git (master)...
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/yuyanen/duke.git completed!
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/nikhilo0/duke.git...
-Oct 01, 2022 5:25:36 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/nikhilo0/duke.git to complete...
-Oct 01, 2022 5:25:37 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/Ayesh02/duke.git (master)...
-Oct 01, 2022 5:25:37 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/aaronangxz/duke.git...
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [6/32] Analyzing https://github.com/Ayesh02/duke.git (master)...
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/limexpepper/duke.git to complete...
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/aaronangxz/duke.git to complete...
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/Ayesh02/duke.git (master) does not contain a standalone config file.
+Oct 01, 2022 1:34:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/Ayesh02/duke.git (master)...
+Oct 01, 2022 1:34:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/bboy-zero/duke.git (master)...
-Oct 01, 2022 5:25:37 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/Ayesh02/duke.git (master)...
-Oct 01, 2022 5:25:37 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/Ayesh02/duke.git (master) completed!
-Oct 01, 2022 5:25:37 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [7/32] Analyzing https://github.com/yuyanen/duke.git (master)...
-Oct 01, 2022 5:25:37 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/bboy-zero/duke.git (master)...
-Oct 01, 2022 5:25:37 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/bboy-zero/duke.git (master) completed!
-Oct 01, 2022 5:25:37 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/yuyanen/duke.git completed!
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/nikhilo0/duke.git...
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [7/32] Analyzing https://github.com/yuyanen/duke.git (master)...
+Oct 01, 2022 1:34:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/Ayesh02/duke.git (master)...
+Oct 01, 2022 1:34:38 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/nikhilo0/duke.git to complete...
+Oct 01, 2022 1:34:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/Ayesh02/duke.git (master)...
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/Ayesh02/duke.git (master) completed!
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/yuyanen/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:37 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/yuyanen/duke.git (master)...
-Oct 01, 2022 5:25:37 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/yuyanen/duke.git (master)...
-Oct 01, 2022 5:25:37 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/yuyanen/duke.git (master)...
-Oct 01, 2022 5:25:37 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:38 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/yuyanen/duke.git (master) completed!
-Oct 01, 2022 5:25:37 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:39 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Anyerxkp/duke.git completed!
-Oct 01, 2022 5:25:37 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [8/32] Analyzing https://github.com/Anyerxkp/duke.git (master)...
-Oct 01, 2022 5:25:37 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:39 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/YaoLiangA0227092H/duke.git...
-Oct 01, 2022 5:25:37 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:39 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [8/32] Analyzing https://github.com/Anyerxkp/duke.git (master)...
+Oct 01, 2022 1:34:39 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/YaoLiangA0227092H/duke.git to complete...
-Oct 01, 2022 5:25:37 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:39 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Anyerxkp/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:37 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:39 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Anyerxkp/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:39 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Anyerxkp/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/aaronangxz/duke.git completed!
-Oct 01, 2022 5:25:38 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/0493730/duke.git...
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [9/32] Analyzing https://github.com/aaronangxz/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:39 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Anyerxkp/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:39 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Anyerxkp/duke.git (master) completed!
-Oct 01, 2022 5:25:38 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/0493730/duke.git to complete...
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/aaronangxz/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:38 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/aaronangxz/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/aaronangxz/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/aaronangxz/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/aaronangxz/duke.git (master) completed!
-Oct 01, 2022 5:25:38 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:39 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/aaronangxz/duke.git completed!
+Oct 01, 2022 1:34:39 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/limexpepper/duke.git completed!
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [10/32] Analyzing https://github.com/limexpepper/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:39 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [9/32] Analyzing https://github.com/aaronangxz/duke.git (master)...
+Oct 01, 2022 1:34:39 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/0493730/duke.git...
+Oct 01, 2022 1:34:39 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Hidhid8/duke.git...
-Oct 01, 2022 5:25:38 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:39 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [10/32] Analyzing https://github.com/limexpepper/duke.git (master)...
+Oct 01, 2022 1:34:39 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/0493730/duke.git to complete...
+Oct 01, 2022 1:34:39 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/aaronangxz/duke.git (master) does not contain a standalone config file.
+Oct 01, 2022 1:34:39 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/aaronangxz/duke.git (master)...
+Oct 01, 2022 1:34:39 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Hidhid8/duke.git to complete...
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:39 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/limexpepper/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:38 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:39 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/limexpepper/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/nikhilo0/duke.git completed!
-Oct 01, 2022 5:25:38 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/jiangxinbxin93/duke.git...
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [11/32] Analyzing https://github.com/nikhilo0/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/jiangxinbxin93/duke.git to complete...
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/nikhilo0/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:38 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/nikhilo0/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:39 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/aaronangxz/duke.git (master)...
+Oct 01, 2022 1:34:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/aaronangxz/duke.git (master)...
+Oct 01, 2022 1:34:40 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/aaronangxz/duke.git (master) completed!
+Oct 01, 2022 1:34:40 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/limexpepper/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/limexpepper/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:40 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/limexpepper/duke.git (master) completed!
-Oct 01, 2022 5:25:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:40 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/nikhilo0/duke.git completed!
+Oct 01, 2022 1:34:40 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [11/32] Analyzing https://github.com/nikhilo0/duke.git (master)...
+Oct 01, 2022 1:34:40 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/jiangxinbxin93/duke.git...
+Oct 01, 2022 1:34:40 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/jiangxinbxin93/duke.git to complete...
+Oct 01, 2022 1:34:40 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/nikhilo0/duke.git (master) does not contain a standalone config file.
+Oct 01, 2022 1:34:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/nikhilo0/duke.git (master)...
+Oct 01, 2022 1:34:40 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/nikhilo0/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/nikhilo0/duke.git (master)...
-Oct 01, 2022 5:25:38 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:40 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/nikhilo0/duke.git (master) completed!
-Oct 01, 2022 5:25:39 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/0493730/duke.git completed!
-Oct 01, 2022 5:25:39 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [12/32] Analyzing https://github.com/0493730/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/Phoebezzzi/duke.git...
-Oct 01, 2022 5:25:39 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Phoebezzzi/duke.git to complete...
-Oct 01, 2022 5:25:39 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/0493730/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:39 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/0493730/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:40 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/YaoLiangA0227092H/duke.git completed!
-Oct 01, 2022 5:25:39 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [13/32] Analyzing https://github.com/YaoLiangA0227092H/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/xumou49/duke.git...
-Oct 01, 2022 5:25:39 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/xumou49/duke.git to complete...
-Oct 01, 2022 5:25:39 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/0493730/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:40 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/Phoebezzzi/duke.git...
+Oct 01, 2022 1:34:40 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [12/32] Analyzing https://github.com/YaoLiangA0227092H/duke.git (master)...
+Oct 01, 2022 1:34:40 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Phoebezzzi/duke.git to complete...
+Oct 01, 2022 1:34:40 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/YaoLiangA0227092H/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:39 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/YaoLiangA0227092H/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/0493730/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/0493730/duke.git (master) completed!
-Oct 01, 2022 5:25:39 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:40 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/YaoLiangA0227092H/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/YaoLiangA0227092H/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:40 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/YaoLiangA0227092H/duke.git (master) completed!
-Oct 01, 2022 5:25:39 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Hidhid8/duke.git completed!
-Oct 01, 2022 5:25:39 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/Dex-Kee/duke.git...
-Oct 01, 2022 5:25:39 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [14/32] Analyzing https://github.com/Hidhid8/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Dex-Kee/duke.git to complete...
-Oct 01, 2022 5:25:39 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/xumou49/duke.git...
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [13/32] Analyzing https://github.com/Hidhid8/duke.git (master)...
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/xumou49/duke.git to complete...
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Hidhid8/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:39 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Hidhid8/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/0493730/duke.git completed!
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/Dex-Kee/duke.git...
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [14/32] Analyzing https://github.com/0493730/duke.git (master)...
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Dex-Kee/duke.git to complete...
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/0493730/duke.git (master) does not contain a standalone config file.
+Oct 01, 2022 1:34:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/0493730/duke.git (master)...
+Oct 01, 2022 1:34:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Hidhid8/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Hidhid8/duke.git (master)...
-Oct 01, 2022 5:25:39 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Hidhid8/duke.git (master) completed!
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/0493730/duke.git (master)...
+Oct 01, 2022 1:34:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/0493730/duke.git (master)...
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/0493730/duke.git (master) completed!
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/jiangxinbxin93/duke.git completed!
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [15/32] Analyzing https://github.com/jiangxinbxin93/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/zzlilyzz/duke.git...
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [15/32] Analyzing https://github.com/jiangxinbxin93/duke.git (master)...
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/zzlilyzz/duke.git to complete...
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/jiangxinbxin93/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:40 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/jiangxinbxin93/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/jiangxinbxin93/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/jiangxinbxin93/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/jiangxinbxin93/duke.git (master) completed!
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Phoebezzzi/duke.git completed!
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [16/32] Analyzing https://github.com/Phoebezzzi/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/drrnsyk/duke.git...
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/drrnsyk/duke.git to complete...
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Phoebezzzi/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:40 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Phoebezzzi/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Phoebezzzi/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Phoebezzzi/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:41 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Phoebezzzi/duke.git (master) completed!
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/xumou49/duke.git completed!
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [17/32] Analyzing https://github.com/xumou49/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/e0493677/duke.git...
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/e0493677/duke.git to complete...
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/xumou49/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:40 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/xumou49/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/xumou49/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/xumou49/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/xumou49/duke.git (master) completed!
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:42 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Dex-Kee/duke.git completed!
-Oct 01, 2022 5:25:40 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [18/32] Analyzing https://github.com/Dex-Kee/duke.git (master)...
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:42 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/xumou49/duke.git completed!
+Oct 01, 2022 1:34:42 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/e0493677/duke.git...
+Oct 01, 2022 1:34:42 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [17/32] Analyzing https://github.com/Dex-Kee/duke.git (master)...
+Oct 01, 2022 1:34:42 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [18/32] Analyzing https://github.com/xumou49/duke.git (master)...
+Oct 01, 2022 1:34:42 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/LiuYHYH/duke.git...
-Oct 01, 2022 5:25:40 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:42 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/e0493677/duke.git to complete...
+Oct 01, 2022 1:34:42 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/LiuYHYH/duke.git to complete...
-Oct 01, 2022 5:25:41 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:42 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Dex-Kee/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:41 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:42 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Dex-Kee/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:42 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/xumou49/duke.git (master) does not contain a standalone config file.
+Oct 01, 2022 1:34:42 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/xumou49/duke.git (master)...
+Oct 01, 2022 1:34:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/xumou49/duke.git (master)...
+Oct 01, 2022 1:34:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/xumou49/duke.git (master)...
+Oct 01, 2022 1:34:42 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/xumou49/duke.git (master) completed!
+Oct 01, 2022 1:34:42 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/zzlilyzz/duke.git completed!
-Oct 01, 2022 5:25:41 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:42 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/fatston/duke.git...
-Oct 01, 2022 5:25:41 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:42 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [19/32] Analyzing https://github.com/zzlilyzz/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:42 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/fatston/duke.git to complete...
-Oct 01, 2022 5:25:41 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:42 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/zzlilyzz/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:41 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:42 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/zzlilyzz/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/zzlilyzz/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/zzlilyzz/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:42 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/zzlilyzz/duke.git (master) completed!
-Oct 01, 2022 5:25:41 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/Dex-Kee/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/Dex-Kee/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/Dex-Kee/duke.git (master) completed!
-Oct 01, 2022 5:25:41 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:43 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/drrnsyk/duke.git completed!
-Oct 01, 2022 5:25:41 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [20/32] Analyzing https://github.com/drrnsyk/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:43 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/nleo7826/duke.git...
-Oct 01, 2022 5:25:41 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:43 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/nleo7826/duke.git to complete...
-Oct 01, 2022 5:25:41 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/drrnsyk/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:41 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:43 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/drrnsyk/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/drrnsyk/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/drrnsyk/duke.git (master)...
-Oct 01, 2022 5:25:41 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/drrnsyk/duke.git (master) completed!
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/e0493677/duke.git completed!
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [21/32] Analyzing https://github.com/e0493677/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/qwchua/duke.git...
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/qwchua/duke.git to complete...
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/e0493677/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:42 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/e0493677/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/e0493677/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/e0493677/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/e0493677/duke.git (master) completed!
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/Dex-Kee/duke.git (master)...
+Oct 01, 2022 1:34:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/Dex-Kee/duke.git (master)...
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/Dex-Kee/duke.git (master) completed!
+Oct 01, 2022 1:34:43 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/LiuYHYH/duke.git completed!
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [22/32] Analyzing https://github.com/LiuYHYH/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/kaiting12/duke.git...
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/kaiting12/duke.git to complete...
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [21/32] Analyzing https://github.com/LiuYHYH/duke.git (master)...
+Oct 01, 2022 1:34:43 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/qwchua/duke.git...
+Oct 01, 2022 1:34:43 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/qwchua/duke.git to complete...
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/LiuYHYH/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:42 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:43 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/LiuYHYH/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/LiuYHYH/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:43 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/e0493677/duke.git completed!
+Oct 01, 2022 1:34:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/LiuYHYH/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:43 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/kaiting12/duke.git...
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [22/32] Analyzing https://github.com/e0493677/duke.git (master)...
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/LiuYHYH/duke.git (master) completed!
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:43 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/kaiting12/duke.git to complete...
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/e0493677/duke.git (master) does not contain a standalone config file.
+Oct 01, 2022 1:34:43 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/e0493677/duke.git (master)...
+Oct 01, 2022 1:34:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/e0493677/duke.git (master)...
+Oct 01, 2022 1:34:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/e0493677/duke.git (master)...
+Oct 01, 2022 1:34:43 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/e0493677/duke.git (master) completed!
+Oct 01, 2022 1:34:44 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/fatston/duke.git completed!
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:44 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [23/32] Analyzing https://github.com/fatston/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:44 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Directorkang/duke.git...
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:44 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Directorkang/duke.git to complete...
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:44 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/fatston/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:42 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:44 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/fatston/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:44 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/fatston/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:44 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/fatston/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:44 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/fatston/duke.git (master) completed!
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:44 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/nleo7826/duke.git completed!
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:44 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [24/32] Analyzing https://github.com/nleo7826/duke.git (master)...
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:44 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/joelleeyueer/duke.git...
-Oct 01, 2022 5:25:42 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:44 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/joelleeyueer/duke.git to complete...
-Oct 01, 2022 5:25:42 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:44 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/nleo7826/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:42 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:44 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/nleo7826/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:44 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/nleo7826/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:44 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/nleo7826/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:44 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/nleo7826/duke.git (master) completed!
-Oct 01, 2022 5:25:43 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:44 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/qwchua/duke.git completed!
-Oct 01, 2022 5:25:43 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:44 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [25/32] Analyzing https://github.com/qwchua/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:44 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/aaronseah/duke.git...
-Oct 01, 2022 5:25:43 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:45 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/aaronseah/duke.git to complete...
-Oct 01, 2022 5:25:43 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/qwchua/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:43 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:45 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/qwchua/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:45 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/qwchua/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:45 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/qwchua/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/qwchua/duke.git (master) completed!
-Oct 01, 2022 5:25:43 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:45 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/kaiting12/duke.git completed!
-Oct 01, 2022 5:25:43 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [26/32] Analyzing https://github.com/kaiting12/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2022 1:34:45 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/denny-wongso/duke.git...
-Oct 01, 2022 5:25:43 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [26/32] Analyzing https://github.com/kaiting12/duke.git (master)...
+Oct 01, 2022 1:34:45 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/denny-wongso/duke.git to complete...
-Oct 01, 2022 5:25:43 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/kaiting12/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:43 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:45 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/kaiting12/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:45 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/kaiting12/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/kaiting12/duke.git (master)...
-Oct 01, 2022 5:25:43 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/kaiting12/duke.git (master) completed!
-Oct 01, 2022 5:25:44 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:45 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Directorkang/duke.git completed!
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [27/32] Analyzing https://github.com/Directorkang/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:45 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/kaiting12/duke.git (master)...
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/kaiting12/duke.git (master) completed!
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Directorkang/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:44 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:45 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Directorkang/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:45 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Directorkang/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:45 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Directorkang/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Directorkang/duke.git (master) completed!
-Oct 01, 2022 5:25:44 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:45 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/joelleeyueer/duke.git completed!
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [28/32] Analyzing https://github.com/joelleeyueer/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/joelleeyueer/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:44 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:45 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/joelleeyueer/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:45 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/joelleeyueer/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:45 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/joelleeyueer/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:45 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/joelleeyueer/duke.git (master) completed!
-Oct 01, 2022 5:25:44 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:46 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/aaronseah/duke.git completed!
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:46 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [29/32] Analyzing https://github.com/aaronseah/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:46 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/aaronseah/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:44 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:46 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/aaronseah/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:46 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/aaronseah/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:46 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/aaronseah/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:46 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/aaronseah/duke.git (master) completed!
-Oct 01, 2022 5:25:44 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2022 1:34:46 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/denny-wongso/duke.git completed!
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2022 1:34:46 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [30/32] Analyzing https://github.com/denny-wongso/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2022 1:34:46 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/denny-wongso/duke.git (master) does not contain a standalone config file.
-Oct 01, 2022 5:25:44 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2022 1:34:46 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/denny-wongso/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2022 1:34:46 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/denny-wongso/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2022 1:34:46 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/denny-wongso/duke.git (master)...
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2022 1:34:46 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/denny-wongso/duke.git (master) completed!
-Oct 01, 2022 5:25:44 AM reposense.report.ReportGenerator generateReposReport
+Oct 01, 2022 1:34:46 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/ip-dashboard/ip-dashboard/reposense-report
-Oct 01, 2022 5:25:45 AM reposense.RepoSense main
-INFO: Elapsed processing time: 11.42 second(s)
+Oct 01, 2022 1:34:46 PM reposense.RepoSense main
+INFO: Elapsed processing time: 11.44 second(s)
